@@ -36,17 +36,29 @@ h2.addEventListener('click', colorBlue);
 
     document.getElementById("date").innerHTML = dateJour;
 
-    setTimeout(dateDuJour, 1);
     setInterval(dateDuJour, 1000);
 }())
 
 (function horaireActuel() {
     let date = new Date();
+    let heures = date.getHours();
+    let minutes = date.getMinutes();
+    let secondes = date.getSeconds();
 
-    let horaire = date.getHours() + ":" + date.getMinutes() + ":" + date.getSeconds();
+    if (heures < 10) {
+        heures = "0" + heures;
+    }
+    if (minutes < 10) {
+        minutes = "0" + minutes;
+    }
+    if (secondes < 10) {
+        secondes = "0" + secondes;
+    }
+
+
+    let horaire = heures + ":" + minutes + ":" + secondes;
 
     document.getElementById("horaire").innerHTML = horaire;
 
-    setTimeout(horaireActuel, 1);
     setInterval(horaireActuel, 1000);
 }())
