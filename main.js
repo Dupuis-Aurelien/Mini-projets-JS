@@ -60,5 +60,6 @@ h2.addEventListener('click', colorBlue);
 
     document.getElementById("horaire").innerHTML = horaire;
 
+
     setInterval(horaireActuel, 1000);
 }())

@@ -50,12 +50,6 @@ a:hover {
     list-style-type: decimal;
 }
 
-@media screen and (min-width: 720px) {
-    .Rangement-projets {
-        flex-direction: row;
-    }
-}
-
 
 /* date */
 
@@ -63,10 +57,22 @@ a:hover {
     color: blue;
     line-height: 150%;
     border: 2px dotted blue;
-    width: 25%;
+    width: 90%;
     padding: 1%;
     margin: auto;
     margin-top: 5%;
     letter-spacing: 2px;
     margin-bottom: 2%;
+}
+
+
+/****** Medias ******/
+
+@media screen and (min-width: 720px) {
+    .Rangement-projets {
+        flex-direction: row;
+    }
+    .date_horaire {
+        width: 25%;
+    }
 }
