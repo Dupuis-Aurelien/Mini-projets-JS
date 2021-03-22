@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+}
+
+body {
+    background-color: yellow;
+    height: 100vh;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    padding: 2%;
+    font-size: 400%;
+    text-shadow: 2px 2px 5px white;
+}
+
+h2 {
+    padding: 2%;
+    font-size: 200%;
+}
+
+h3 {
+    padding-bottom: 10%;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: red;
+}
+
+.date_horaire {
+    position: fixed;
+    top: 5%;
+    left: 85%;
+    color: yellow;
+    line-height: 150%;
+}
+
+.Rangement-projets {
+    display: flex;
+    justify-content: space-around;
+}
+
+.Rangement-projets li {
+    line-height: 150%;
+    font-size: 110%;
+    list-style-type: decimal;
+}

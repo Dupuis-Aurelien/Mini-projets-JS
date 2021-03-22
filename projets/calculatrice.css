@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+}
+
+body {
+    background-color: yellow;
+    height: 100vh;
+}
+
+.retour {
+    font-size: 120%;
+    color: black;
+}
+
+h1 {
+    background-color: black;
+    color: white;
+    padding: 2%;
+    font-size: 400%;
+    text-shadow: 2px 2px 5px white;
+}
+
+button {
+    height: 50px;
+    width: 70px;
+    border: 2px black solid;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.calculatrice {
+    display: inline-block;
+    width: 400px;
+    height: auto;
+    border: solid black 2px;
+    border-radius: 5px;
+    margin-top: 3%;
+    background-color: black;
+    margin-bottom: 3%;
+}
+
+input {
+    height: 50px;
+    width: 93.5%;
+    margin-bottom: 1%;
+    padding: 1%;
+    padding-right: 5%;
+    text-align: right;
+    font-size: larger;
+}
+
+.calculer {
+    width: 30%;
+}
