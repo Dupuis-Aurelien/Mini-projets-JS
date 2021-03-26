@@ -11,62 +11,44 @@
 
 <body>
 
-
-
     <h1>Calculatrice</h1>
-
-
 
     <div class="calculatrice">
 
-        <input type="text">
+        <p id="resultat"></p>
 
-        <button>0</button>
-        <button>1</button>
-        <button>2</button>
-        <button>3</button>
-        <button>4</button>
-        <button>5</button>
-        <button>6</button>
+        <button title="Effacer">AC</button>
+        <button title="Effacer la derniére touche">CE</button>
+        <button id="Modulo">%</button>
+        <button id="Division">/</button>
+
         <button>7</button>
         <button>8</button>
         <button>9</button>
+        <button id="Multiplication">*</button>
 
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button id="Soustraction">-</button>
 
-        <button>+</button>
-        <button>-</button>
-        <button>/</button>
-        <button>*</button>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button id="Addition">+</button>
+
+        <button>0</button>
         <button>(</button>
         <button>)</button>
-        <button>,</button>
-        <button>C</button>
-        <button class="calculer">=</button>
+        <button>.</button>
+
+        <button title="Calculer" id="calculer">=</button>
+
 
     </div>
     <div>
         <a class="retour" href="../index.html">Retour à la liste des mini projets</a>
     </div>
-
-    <div class="memo" style="margin: 1%;">
-        <pre>
-
-            
-            - quand j’étais click sur bouton, je rajoute la valeur du bouton dans une variable. 
-            - la valeur de la variable est retranscrite dans le input. 
-            - si je click sur =, je fais le calcule se trouvant dans la variable
-
-            Variable 1 = « 1 » + « + » + « 2 »;
-            Variable 2 = 1+2;
-
-            Variable 1 = 1+2;
-            Variable 2 = 3;
-
-        </pre>
-
-    </div>
-
-
 
 
     <script src="calculatrice.js"></script>
