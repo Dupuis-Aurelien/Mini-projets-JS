@@ -51,21 +51,6 @@ a:hover {
 }
 
 
-/* date */
-
-.date_horaire {
-    color: blue;
-    line-height: 150%;
-    border: 2px dotted blue;
-    width: 90%;
-    padding: 1%;
-    margin: auto;
-    margin-top: 5%;
-    letter-spacing: 2px;
-    margin-bottom: 2%;
-}
-
-
 /****** Medias ******/
 
 @media screen and (min-width: 720px) {
